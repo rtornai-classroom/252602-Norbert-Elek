@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="common.cpp" />
+  </Folder>
+  <Project Path="Beadandó.vcxproj" Id="f2c65fa9-81f2-4f2b-a775-ed641c5757b4" />
+</Solution>
