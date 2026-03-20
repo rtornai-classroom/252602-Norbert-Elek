@@ -129,7 +129,7 @@ int main() {
         }
 
         // Színfelcserélés feltétele: ha a kör közepe elhagyja a [200, 400] tartományt
-        bool inverted = (posX < 200.0f || posX > 400.0f);
+        bool inverted = (posX < 200.0f || posX > 400.0f) && (velY == 0.0f);
 
         // --- RENDERELÉS ---
         glClear(GL_COLOR_BUFFER_BIT);
